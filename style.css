@@ -1,12 +1,12 @@
 :root {
-  --pink: #0a7aad;
+  --red: #bd190d;
   --bg: #0a0a0a;
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
 
 body {
   font-size: 1.2rem;
-  font-family: 'forte', sans-serif;
+  font-family: 'castellar', sans-serif;
   min-height: 4000px;
 }
 
@@ -17,7 +17,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(img/lord.jpeg);
+  background-image: url(img/senja.png);
   background-size: cover;
   background-position: center;
   z-index: -1;
@@ -36,7 +36,7 @@ body {
 }
 
 .hero h1 {
-  font-family: 'algerian', cursive;
+  font-family: 'castellar', cursive;
   font-size: 6rem;
 }
 
@@ -49,13 +49,13 @@ body {
 }
 
 .hero a {
-  color: var(--pink);
+  color: var(--red);
   background-color: white;
   box-shadow: var(--shadow);
 }
 
 .hero a:hover {
-  background-color: var(--pink);
+  background-color: var(--red);
   color: white;
 }
 
@@ -70,7 +70,7 @@ body {
 
 .mynavbar .navbar-brand,
 .mynavbar .offcanvas-title {
-  font-family: 'algerian', cursive;
+  font-family: 'castellar', cursive;
   font-size: 3.2rem;
   font-weight: bold;
 }
@@ -94,8 +94,8 @@ body {
 .gallery h2,
 .rsvp h2,
 .gifts h2 {
-  color: var(--pink);
-  font-family: 'algerian';
+  color: var(--red);
+  font-family: 'castellar';
   font-size: 5rem;
   font-weight: bold;
 }
@@ -116,9 +116,9 @@ body {
 }
 
 .home .couple h3 {
-  font-family: 'algerian';
+  font-family: 'castellar';
   font-size: 2.4rem;
-  color: var(--pink);
+  color: var(--red);
 }
 
 .home .couple img {
@@ -139,7 +139,7 @@ body {
 
 .home .heart i {
   margin: auto;
-  color: var(--pink);
+  color: var(--red);
 }
 
 .info {
@@ -325,20 +325,20 @@ body {
 }
 
 .rsvp button {
-  background-color: var(--pink);
+  background-color: var(--red);
   color: white;
-  border: 1px solid var(--pink);
+  border: 1px solid var(--red);
 }
 
 .rsvp button:hover {
   background-color: white;
-  color: var(--pink);
+  color: var(--red);
   border: 1px solid white;
 }
 
 footer {
   padding: 3rem;
-  background-color: var(--pink);
+  background-color: var(--red);
   color: white;
 }
 
